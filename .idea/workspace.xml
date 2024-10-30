@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316f193-8fc6-4471-8556-681fe7776642" name="Changes" comment="" />
+    <list default="true" id="6316f193-8fc6-4471-8556-681fe7776642" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/READ.me" beforeDir="false" afterPath="$PROJECT_DIR$/READ.me" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rvadhani"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rvadhani/Scaler_Project.git",
+    "accountId": "66a93f3c-1997-4710-a519-47bbc31a3e54"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/newProj/newProj/settings.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -36,7 +51,7 @@
     "Python.settings.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/rohit/Desktop/Scalar/Scaler_Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,7 +111,7 @@
       <workItem from="1730049794004" duration="492000" />
       <workItem from="1730168346076" duration="862000" />
       <workItem from="1730172533512" duration="810000" />
-      <workItem from="1730173357651" duration="3333000" />
+      <workItem from="1730173357651" duration="14655000" />
     </task>
     <servers />
   </component>

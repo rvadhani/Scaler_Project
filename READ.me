@@ -1,7 +1,7 @@
 Django command to start project:
     django-admin startproject <proj_name>
 
-To crate new application in project:
+To create new application in project:
     python manage.py startapp <app_name>
 
 To run the application:
@@ -28,7 +28,7 @@ settings.py
     -> Django works on DRY ( do not repeat yourself) , uses codes already written to prevent writing them again
     -> Everything in django works as an application [mention in INSTALLED_APPS]
     -> Path create the object , resolve() provide absolute path , parent.parent provides grandparent directory
-    -> static/ stores the image file while sending to response
+    -> static/ stores the image,javascript file while sending to response
     -> DEFAULT_AUTO_FIELD uses which algorithm to use primary key while saving in database
     -> we can have multiple database
     -> ROOT_URL , all urls go first this mention path
@@ -58,11 +58,20 @@ if we disabled that, then we need to mention our local ip and localhost in ALLOW
 
 
 Commands to use to push the code on github
+         git configure user.email "mail_id" -> for authentication
     2098 git init -> helps to initialize the git
     2099 git add ./
     2100 git commit -m "test project"
-    2101 git remote add origin git@github.com:kbhatia01/demoDjangoProject.git
-    2102 git push
+    2101 git remote add origin git@github.com:kbhatia01/demoDjangoProject.git or use https
+         git branch -M main
+    2102 git push -> for first time use git push -u origin main
+         git pull -> fetch + merge
+
+         Apart from this we can use
+         git pull --rebase
+
+
+
 
 
 
