@@ -14,11 +14,11 @@ def db_commands(request,name):
     """ SELECT """
     # all_students = Student.objects.all() # objects for all students Select * from table
     # print(all_students)
-
+    print(name)
     student = Student.objects.get(name=name)  # select * from table where name = name
 
     """ UPDATE """
-    student.age = 20
+    student.age = 30
     student.save()
 
     return HttpResponse('Hello Your age is ' + str(student.age))

@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6316f193-8fc6-4471-8556-681fe7776642" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Scaler_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scaler_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/aac993cc-3b42-4a00-ac24-5ebcbe9e3ba3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aac993cc-3b42-4a00-ac24-5ebcbe9e3ba3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/READ.me" beforeDir="false" afterPath="$PROJECT_DIR$/READ.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_test/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_test/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_test/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newProj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newProj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django/urls/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/django/urls/conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newProj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newProj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryHello/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryHello/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryHello/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tryHello/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tryHello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/views.py" afterDir="false" />
     </list>
@@ -29,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rvadhani"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rvadhani&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rvadhani/Scaler_Project.git",
-    "accountId": "66a93f3c-1997-4710-a519-47bbc31a3e54"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rvadhani/Scaler_Project.git&quot;,
+    &quot;accountId&quot;: &quot;66a93f3c-1997-4710-a519-47bbc31a3e54&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/newProj/newProj/settings.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,22 +54,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.settings.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rohit/Desktop/Scalar/Scaler_Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rohit/Desktop/Scalar/Scaler_Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Scaler_Project" type="Python.DjangoServer" factoryName="Django server">
       <module name="Scaler_Project" />
@@ -121,7 +119,11 @@
       <workItem from="1730049794004" duration="492000" />
       <workItem from="1730168346076" duration="862000" />
       <workItem from="1730172533512" duration="810000" />
-      <workItem from="1730173357651" duration="19793000" />
+      <workItem from="1730173357651" duration="20480000" />
+      <workItem from="1730307296054" duration="656000" />
+      <workItem from="1730308153984" duration="189000" />
+      <workItem from="1730308354422" duration="1384000" />
+      <workItem from="1730436836959" duration="2727000" />
     </task>
     <servers />
   </component>
