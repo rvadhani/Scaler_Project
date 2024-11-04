@@ -48,7 +48,7 @@ service.py ( best practice to manually create this and write main logic here )
     -> Actual logic should be written in service.py as best practice.
 
 
-tryHello/urls.py (this is crated to route the url for this application) , but you need to mention same to main project
+tryHello/urls.py (this is created to route the url for this application) , but you need to mention same to main project
 file url as well on this that to include these.
 
 
@@ -78,3 +78,27 @@ Commands to use to push the code on github
 Questions:
 1. where is DEFAULT_AUTO_FIELD is being used as we are directly using BigAutoField ?
 2. What if some other user want to login on admin page and update some details on table apart from super admin ?
+
+ADMIN:
+https://docs.djangoproject.com/en/5.1/ref/contrib/admin/
+
+Models:
+https://docs.djangoproject.com/en/5.1/ref/models/fields/
+
+Create Super User:
+python manage.py createsuperuser
+
+For normal Admin: You can do below things
+
+1. Through Admin page , login from superuser and add new user with is staff status checked and is_super unchecked.
+    There is option for active as well, if off can do nothing that user
+
+2. Use below lines to create the user:
+
+        from django.contrib.auth.models import User
+        # Replace 'username' and 'password' with desired values
+        user = User.objects.create_user(username='username', password='password')
+        user.is_staff = True  # Give basic admin privileges
+        user.is_superuser = False  # Ensure it’s not a superuser
+        user.save()
+

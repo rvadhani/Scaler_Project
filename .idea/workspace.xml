@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6316f193-8fc6-4471-8556-681fe7776642" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Scaler_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scaler_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aac993cc-3b42-4a00-ac24-5ebcbe9e3ba3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aac993cc-3b42-4a00-ac24-5ebcbe9e3ba3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_test/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_test/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_test/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/READ.me" beforeDir="false" afterPath="$PROJECT_DIR$/READ.me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django/urls/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/Lib/site-packages/django/urls/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newProj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newProj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryHello/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tryHello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryHello/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/READ.me" beforeDir="false" afterPath="$PROJECT_DIR$/library/READ.me" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +55,7 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rohit/Desktop/Scalar/Scaler_Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rohit/Desktop/Scalar/Scaler_Project/manage.py&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -123,7 +118,8 @@
       <workItem from="1730307296054" duration="656000" />
       <workItem from="1730308153984" duration="189000" />
       <workItem from="1730308354422" duration="1384000" />
-      <workItem from="1730436836959" duration="2727000" />
+      <workItem from="1730436836959" duration="9666000" />
+      <workItem from="1730697724072" duration="317000" />
     </task>
     <servers />
   </component>
