@@ -24,4 +24,31 @@ Reference:
 https://www.django-rest-framework.org/
 https://www.django-rest-framework.org/#example
 
+TO DO:
+https://dev.to/kboskin/building-web-applications-with-react-and-python-2d8c
+Library get request - done
 
+QuerySet Q is used to perform the custom queries in django.
+AND -> &
+OR -> |
+NOT -> ~
+
+Example
+ Queryset Q to be use for AND, OR ,LIKE, IN  operators
+    book = Book.objects.filter(~(Q(title__icontains="rowling")) | Q(pk=id))
+    print(BookSerializer(book, many=True).data)
+
+exact :- Q(title__exact="rowling") # Similar to equals to in SQL
+
+iexact :- incase sensitive (i just means incase sensitive)
+
+contains:- Similar to like %word%
+
+gt/gte :- greater than/greater than equals to
+
+in :- to check in list
+
+startswith :- similar to text%
+endswith :- similar to %text
+
+while adding publish year for default apart from auto_add_now we can use default= timezone.now

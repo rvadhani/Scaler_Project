@@ -1,5 +1,6 @@
 from logging import exception
 
+from django.db.models import Q
 from django.shortcuts import render
 from rest_framework import status
 from rest_framework.decorators import api_view
@@ -36,6 +37,10 @@ def create_author(request):
 
 @api_view(['GET'])
 def get_books(request,id):
+    # Queryset Q to be use for AND, OR ,LIKE, IN  operators
+    book = Book.objects.filter(~(Q(title__icontains="rowling")) | Q(pk=id))
+    print(book[0].__dict__)
+    print(BookSerializer(book, many=True).data)
     try:
         book_serializer = BookSerializer(Book.objects.get(pk=id))
         return Response(book_serializer.data, status=status.HTTP_200_OK)

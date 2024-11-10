@@ -22,3 +22,4 @@ def db_commands(request,name):
     student.save()
 
     return HttpResponse('Hello Your age is ' + str(student.age))
+
