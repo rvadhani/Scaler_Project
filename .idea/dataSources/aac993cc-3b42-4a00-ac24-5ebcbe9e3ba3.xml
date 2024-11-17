@@ -499,7 +499,7 @@
     </routine>
     <schema id="191" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-11-02.12:37:25</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-11-17.05:55:13</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="192" parent="16">
       <ArgumentDirection>R</ArgumentDirection>
@@ -2133,64 +2133,83 @@ model</ColNames>
       <Position>2</Position>
       <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <key id="678" parent="568">
+    <column id="678" parent="568" name="age">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>integer|0s</StoredType>
+    </column>
+    <column id="679" parent="568" name="address">
+      <Position>4</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <key id="680" parent="568">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="679" parent="569" name="id">
+    <column id="681" parent="569" name="id">
       <AutoIncrement>1</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>integer|0s</StoredType>
     </column>
-    <column id="680" parent="569" name="title">
+    <column id="682" parent="569" name="title">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <column id="681" parent="569" name="authors_id">
+    <column id="683" parent="569" name="authors_id">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <foreign-key id="682" parent="569">
+    <column id="684" parent="569" name="publish_date">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <column id="685" parent="569" name="edition">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <foreign-key id="686" parent="569">
       <ColNames>authors_id</ColNames>
       <Deferrable>1</Deferrable>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefColNames>id</RefColNames>
       <RefTableName>library_author</RefTableName>
     </foreign-key>
-    <index id="683" parent="569" name="library_book_authors_id_bab51fa2">
+    <index id="687" parent="569" name="library_book_authors_id_bab51fa2">
       <ColNames>authors_id</ColNames>
     </index>
-    <key id="684" parent="569">
+    <key id="688" parent="569">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="685" parent="570" name="type">
+    <column id="689" parent="570" name="type">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="686" parent="570" name="name">
+    <column id="690" parent="570" name="name">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="687" parent="570" name="tbl_name">
+    <column id="691" parent="570" name="tbl_name">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="688" parent="570" name="rootpage">
+    <column id="692" parent="570" name="rootpage">
       <Position>4</Position>
       <StoredType>INT|0s</StoredType>
     </column>
-    <column id="689" parent="570" name="sql">
+    <column id="693" parent="570" name="sql">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="690" parent="571" name="name">
+    <column id="694" parent="571" name="name">
       <Position>1</Position>
     </column>
-    <column id="691" parent="571" name="seq">
+    <column id="695" parent="571" name="seq">
       <Position>2</Position>
     </column>
   </database-model>

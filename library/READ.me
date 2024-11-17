@@ -52,3 +52,89 @@ startswith :- similar to text%
 endswith :- similar to %text
 
 while adding publish year for default apart from auto_add_now we can use default= timezone.now
+
+--------------------------------------------------------
+Cardinalities | Fetch Types | N+1 Problem | Migrations |
+--------------------------------------------------------
+
+Cardinalities in Django
+1) 1:1 ->
+
+Lets say Instagram user and profile have relationship as 1:1
+
+Class User:
+    name
+    email
+    phone
+
+Class Profile:
+    p_id
+    user = models.OneToOneField(User, on_delete=model.CASCADE)
+
+2) 1:M: ForeignKey relationship is used when 1:M is there
+
+3) M:M: ManytomanyFields use in any either table django will automatically created intermediatory table.
+
+Fetch Types:
+    1. lazy Loading (Procrastination that is will perform later not at the time of creation while use it will do this thing)
+
+    Lets say we have class Book and Author
+    Book have author foreign key
+
+    so for that django want fetch the data at first time when we fetch book object data.
+    it will only get the details of book, if we use author name then only it will fetch dta from Author table
+
+    Lazy loading causes N+1 problem
+
+    2. Eager loading: fetch the data early so we can decrease the no. of db calls
+    It can be done in 2 ways:
+    a) select_related: it can provide data in 1 query , basically it will join the tables.
+       This is used in 1:1 or ForeignKey relationship
+
+       book = Book.objects.select_related('authors')
+       for b in books:
+           print(b.author.name)
+
+       Used in library.test.py
+
+    b) Prefetch_related: this will work on many to many relation. This is does not perform join as select_relate method
+        It works performs joins on code phase not on db phase. creating list of first and second table and mapping table
+        then performs the mapping part at code level
+
+        for course in courses:
+            for student in course.student.all()
+                print(student.name)
+
+        Used in database_test.test.py
+
+    Lazy loading is better if we don't want foreign key or other table data as it does not perform the join Eager
+    loading should be used when we need the data from foreign key table so prefetch works fine there.
+
+    Lazy loading should not be used in for loop.
+
+
+    Migrations:
+
+    Rollback: Dtabase rollbacks. it does not delete the file, will perform the changes in our db.
+    In library added new column , having migrations 3 file.
+
+    >>>python manage.py migrate library 0001
+
+    This command still rollback all earlier changes in 0001.
+    Deleted publish table, edition table added in new migration files
+
+    >>> python manage.py migrate
+    back to actual
+
+    FakeMigration: lets say if someone added table using sql query. this won;t be showing in our migrate file for change
+
+    if someone added new table from python, it will overwrite all details , data will be vanished
+
+    Add that column or changes in models, run make makemigrations, then perform below command to perform fake migration
+    >>> python manage.py migrate --fake library 0005
+
+    Aggregation:
+    https://docs.djangoproject.com/en/5.1/topics/db/aggregation/
+
+
+
